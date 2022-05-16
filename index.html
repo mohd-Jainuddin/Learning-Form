@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+<body>
+    <form>
+        <fieldset>
+            <legend>Biodata</legend>
+            <label for="First Name">First Name:</label>
+            <input type="text" name="First Name" placeholder="First Name" required><br><br>
+            <label for="Second Name">Second Name: </label>
+            <input type="text" name="Second Name" placeholder="Second Name" required><br><br>
+            <label for="Email">Email: </label>
+            <input type="email" name="Email" placeholder="abc@gmail.com" required><br><br>
+            <label for="Contact">Contact: </label>
+            <input type="number" name="Contact" placeholder="1234567891" required><br><br>
+            <label for="Date">D O B: </label>
+            <input type="date" name="Date"  required><br><br>
+            <label for="Nationality">Nationality: </label>
+            <input type="text" name="Nationality" required><br><br>
+            <label for="Gender">Gender: 
+            <input type="radio" name="Gender">Male
+            <input type="radio" name="Gender">Female</label><br><br>
+            <label for="abc">Programming Skills: 
+            <input type="checkbox" name="abc">HTML
+            <input type="checkbox" name="bca">CSS
+            <input type="checkbox" name="abc">PYTHON
+            <input type="checkbox" name="bca">C </label><br><br>
+            <label for="address">State: 
+                <input type="text" name="hobby" list="My">
+                <datalist id="My">
+                    <option value="Uttar Pradesh"></option>
+                    <option value="Bihar"></option>
+                    <option value="Uttra Khand"></option>
+                </datalist>
+            </label><br><br>
+            <label for="city">Choose Your City:</label>
+           <select name="city" id="xyz">
+               <option value="Allahabad">Allahabad</option>
+               <option value="Jaunpur">Jaunpur</option>
+               <option value="Lucknow">Lucknow</option>
+               <option value="Delhi">Delhi</option>
+           </select><br><br>
+           <label for="SMS">Drop Your SMS Here:
+           <textarea name="SMS" ></textarea></label><br><br>
+           <button>Submit</button>
+
+        </fieldset>
+    </form>
+</body>
+</html>
